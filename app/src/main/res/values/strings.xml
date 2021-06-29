@@ -13,6 +13,5 @@
     <string name="fibonacci">Fibonacci Sequence</string>
     <string name="result">%d</string>
     <string name="Welkom">Welkom! Klik op volgende om het eerste getal te zien van de Fibonacci Reeks!</string>
-    <string name="back">Back</string>
     <string name="reset">Reset</string>
 </resources>
