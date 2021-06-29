@@ -10,5 +10,9 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="fibonacci_reeks">Fibonacci Reeks:</string>
+    <string name="fibonacci">Fibonacci Sequence</string>
     <string name="result">%d</string>
+    <string name="Welkom">Welkom! Klik op volgende om het eerste getal te zien van de Fibonacci Reeks!</string>
+    <string name="back">Back</string>
+    <string name="reset">Reset</string>
 </resources>
