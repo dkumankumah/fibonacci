@@ -49,12 +49,18 @@ class FibonacciFragment : Fragment() {
             fibonacciAdapter.notifyDataSetChanged()
             toggleView(sequence.size)
 
+            binding.btnNext.isEnabled = false
+
             binding.cvSequenceItem.animate().apply {
                 duration = 1500
+
                 if (sequence.size %2 == 0){
+
                     rotationYBy(360f)
                 }else rotationXBy(360f)
             }.start()
+
+            binding.btnNext.isEnabled = true
 
         }
 
