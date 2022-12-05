@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import nl.kumankumah.fibonacci_vr.databinding.ItemSequenceBinding
-
+//main
 class FibonacciAdapter(private var sequence: List<Int>) : RecyclerView.Adapter<FibonacciAdapter.ViewHolder>() {
 
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
